@@ -87,3 +87,5 @@ Flags are placed at the end of the regex to specify additional functionality or 
   
  ## Author
   I am anspring coder studying the University of Washington. Graduating in Dec 2021. 
+  Get the gist here. https://gist.github.com/mple06/50d1731a34dd57ad52b27338f3a94606
+  Profile: https://github.com/mple06
