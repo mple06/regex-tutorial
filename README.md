@@ -40,12 +40,12 @@ Bracket Expressions [] indicates a range of characters that should match. Unless
 ## Quantifiers
 Quantifiers specify how many matches has to be made in each group indicated by the (). More on that later. In our example, there are 2 quantifiers - the plus(+) and {2,6}
   - (+) indicates that that group has to match one or more times.
-  - {2,6} or {n, m} indicates that that group has to match from n to m times. So in our case, this string has to contain 2 characters and no more than 6 characters.
+  - {2,6} or {n, m} indicates that that group has to match from n to m times. So in our case, this string has to contain at least 2 characters and no more than 6 characters.
 
 There are different types of quantifiers. Take a look at the table in the link below to see more. 
 https://docs.microsoft.com/en-us/dotnet/standard/base-types/quantifiers-in-regular-expressions
 
-Quantifers are greedy, meaning they match as many occurrences of particular patterns as possible. You can make them lazy by adding a question mark(?), meaning it will match as few occurrences as possible.
+Quantifers are "naturally" greedy, meaning they match as many occurrences of particular patterns as possible. You can make them lazy by adding a question mark(?), meaning it will match as few occurrences as possible.
 
 <a name="grouping"></a>
 ## Grouping Constructs
