@@ -26,7 +26,12 @@ Anchors are used to identify the beginning and ending of a regex. The caret^ is 
 
 <a name="brackets"></a>
 ## Bracket Expressions
-Bracket Expressions [] indicates a range of characters that should match. Unless, there is a ^ at the beginning of the bracket. If this is the case, the characters that follow should NOT match. Looking at our example, we have 3 sets of brackets. [a-z0-9_\.-], [\da-z\.-], and [a-z\.]. Let's break it down as follows. 
+Bracket Expressions [] indicates a range of characters that should match. Unless, there is a ^ at the beginning of the bracket. If this is the case, the characters that follow should NOT match. Looking at our example, we have 3 sets of brackets. 
+  - [a-z0-9_\.-]
+  - [\da-z\.-] 
+  - [a-z\.]
+  - 
+ Let's break it down as follows. 
   - [a-z] the string can contain any lowercase letter a-z ONLY. Regex are case sensitive. If we want to match letters in uppercase only, we would want to use [A-Z]. If we want to match both lowercase and uppercase, then we want to use [a-zA-Z].
   - [0-9] the string can contain any number 0-9.
   - [_\.-] the string can contain an undescore_, backslash\, period., or hyphen-. These are special characters and they are any non-alphanumeric characters, such as punctuation or symbols.
