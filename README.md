@@ -34,7 +34,7 @@ Bracket Expressions [] indicates a range of characters that should match. Unless
  Let's break it down as follows. 
   - [a-z] the string can contain any lowercase letter a-z ONLY. Regex are case sensitive. If we want to match letters in uppercase only, we would want to use [A-Z]. If we want to match both lowercase and uppercase, then we want to use [a-zA-Z].
   - [0-9] the string can contain any number 0-9.
-  - [_\.-] the string can contain an underscore(_), backslash(\), period(.), or hyphen(-). These are special characters and they are any non-alphanumeric characters, such as punctuation or symbols.
+  - ([_\.-]) _the string can contain an underscore(_), backslash(\), period(.), or hyphen(-). These are special characters and they are any non-alphanumeric characters, such as punctuation or symbols.
   - [\d] the string matches any Arabic numeral digit. This class is equivalent to the bracket expression [0-9].
 
 ## Quantifiers
